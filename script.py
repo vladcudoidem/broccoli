@@ -5,4 +5,9 @@ def pr_ret(msg):
     return msg
 
 class Helper:
-    pass
+    def __init__(self, val):
+        self.val = val
+    
+    def getInstance():
+        return Helper()
+        
